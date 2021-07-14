@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html><head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="alternate" type="application/rss+xml" href="https://example.com/model/index.xml" title="VE-Gaia" />
+    <link rel="canonical" href="https://example.com/model/">
+
+    <title>
+        
+        1. Create the model geometry | VE-Gaia
+        
+    </title>
+
+    
+    <link href="https://example.comcss/fontawesome.min.css" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="https://example.com/css/ace.min.css">
+
+    
+
+    
+    
+        
+    
+
+</head>
+<body><nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow sticky-top" id="navbarMain">
+    <div class="container">
+        <div class="feed-icons">
+            <a href="https://www.iesve.com/software/virtual-environment/applications/climate-analysis-and-weather/gaia">
+              <img src="https://pbs.twimg.com/profile_images/478494364801314817/u1xUAIQS_400x400.jpeg"
+              alt="IES Ltd"
+              hspace = 10
+              height = 60/>
+            </a>
+        </div>
+        <div>
+          <a>  </a>
+            <a class="navbar-brand" href="/">
+                
+
+                VE-Gaia
+            </a>
+        </div>
+        
+            <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarMainCollapse" aria-controls="navbarMainCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMainCollapse">
+              <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://iesve.com" target="_blank">
+                                  iesve.com
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://github.com/vantagedesign/ace-documentation" target="_blank">
+                                  <i class='fab fa-github'></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://github.com/vantagedesign/ace-documentation/releases" target="_blank">
+                                  <button class='btn btn-success mt-n1'>Download</button>
+                                </a>
+                            </li>
+              </ul>
+            </div>
+    </div>
+
+</nav>
+<div class="container-fluid">
+            <div class="row">
+
+                <div class="docs-sidenav order-0 col-12 col-md-3 col-lg-2 col-xl-2 position-sticky border-right"><nav class="navbar navbar-expand-md navbar-light pl-0">
+    <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#sidenav-left-collapse" aria-controls="sidenav-left-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+     <div class="collapse navbar-collapse align-items-start flex-column" id="sidenav-left-collapse">
+            <form class="form-inline my-2 my-lg-0 searchbox">
+                <input class="form-control mr-sm-2 w-100" data-search-input id="search-by" type="text" placeholder="Search">
+            </form>
+         <ul class="navbar-nav flex-column pt-3">
+    <li data-nav-id="/model/" class="nav-item my-1 parent active
+        ">
+        
+        <a class="nav-link p-0" href="/model/"><h6>1. Create the model geometry</h6></a>
+    </li>
+    <li data-nav-id="/climate/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/climate/"><h6>2. Understand the Climate</h6></a>
+    </li>
+    <li data-nav-id="/construction/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/construction/"><h6>3. Reduce Construction Impacts</h6></a>
+    </li>
+    <li data-nav-id="/energy/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/energy/"><h6>4. Reduce CO2 &amp;amp; Operational Energy</h6></a>
+    </li>
+    <li data-nav-id="/resources/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/resources/"><h6>5. Assess Site Resource opportunities</h6></a>
+    </li>
+    <li data-nav-id="/renewables/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/renewables/"><h6>6. Increase Renewable Energy use</h6></a>
+    </li>
+    <li data-nav-id="/water/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/water/"><h6>7. Reduce Water Use</h6></a>
+    </li>
+    <li data-nav-id="/reports/" class="nav-item my-1 haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/reports/"><h6>VE-Gaia Reports</h6></a>
+        <ul class="list-unstyled ml-2">
+        <li data-nav-id="/reports/bioclimaticanalysis/" class="nav-item my-1">
+                
+                 <a href="/reports/bioclimaticanalysis/" class="nav-link p-0">
+                    Bioclimatic Analysis
+                </a>
+        </li>
+        <li data-nav-id="/reports/buildingmetrics/" class="nav-item my-1">
+                
+                 <a href="/reports/buildingmetrics/" class="nav-link p-0">
+                    Building Metrics
+                </a>
+        </li>
+        <li data-nav-id="/reports/climatemetrics/" class="nav-item my-1">
+                
+                 <a href="/reports/climatemetrics/" class="nav-link p-0">
+                    Climate Metrics
+                </a>
+        </li>
+        <li data-nav-id="/reports/energy/" class="nav-item my-1">
+                
+                 <a href="/reports/energy/" class="nav-link p-0">
+                    CO2 &amp; Energy
+                </a>
+        </li>
+        <li data-nav-id="/reports/constructions/" class="nav-item my-1">
+                
+                 <a href="/reports/constructions/" class="nav-link p-0">
+                    Construction Materials
+                </a>
+        </li>
+        <li data-nav-id="/reports/resources/" class="nav-item my-1">
+                
+                 <a href="/reports/resources/" class="nav-link p-0">
+                    Natural resources 
+                </a>
+        </li>
+        <li data-nav-id="/reports/renewables/" class="nav-item my-1">
+                
+                 <a href="/reports/renewables/" class="nav-link p-0">
+                    Renewable Energy Use
+                </a>
+        </li>
+        <li data-nav-id="/reports/water/" class="nav-item my-1">
+                
+                 <a href="/reports/water/" class="nav-link p-0">
+                    Water
+                </a>
+        </li>
+        </ul>
+    </li>
+        </ul>
+    </div>
+</nav>
+
+
+</div>
+                <div class="docs-toc large order-lg-2 order-md-0 order-xs-1 col-12 col-lg-2 col-xl-2 position-sticky border-left"><div class="docs-toc">
+	<nav id="TableOfContents">
+  <ul>
+    <li><a href="#generateimportdraw-geometry">Generate/Import/Draw Geometry</a>
+      <ul>
+        <li><a href="#auto-generate-from-starter-geometry">Auto-generate from Starter Geometry</a></li>
+        <li><a href="#create-from-bim">Create from BIM</a></li>
+        <li><a href="#drawing-in-the-ve">Drawing in the VE</a></li>
+      </ul>
+    </li>
+    <li><a href="#understand-the-building-characteristics-and-metrics">Understand the building characteristics and metrics</a>
+      <ul>
+        <li><a href="#set-building-type">Set building type</a></li>
+        <li><a href="#create-building-metrics-report">Create building metrics report</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+</div>
+                <div class="main col-12 order-1 col-md-9 col-lg-10 col-xl-8 py-3">
+                
+
+<h1>1. Create the model geometry</h1>
+
+<p class="lead">
+    Create and understand the building model&rsquo;s geometry.
+</p>
+
+<h2 id="generateimportdraw-geometry">Generate/Import/Draw Geometry</h2>
+<p>We can create Geometry in Gaia in a number of ways:</p>
+<ul>
+<li>Auto-Generate using Starter Geometry</li>
+<li>Import from BIM</li>
+<li>Draw in ModelIT</li>
+</ul>
+<h3 id="auto-generate-from-starter-geometry">Auto-generate from Starter Geometry</h3>
+<p>The Create From Starter Geometry sub-section can be used to create a new project that is either blank (i.e. no geometry) or containing pre-defined default building geometry. This offers a fast and intuitive way of creating early-stage geometry for projects with minimal pre-required configuration.</p>
+<p>The Starter Geometry group consists of 17 thumbnails for the pre-defined geometry to create in the new project – only one of these thumbnails can be selected. The first option is None and is selected by default – this means no pre-defined geometry will be created in the new project. The other 16 thumbnails represent different building types (e.g. Small Office, Hospital, Restaurant), with the thumbnail image itself giving an indication of what the geometry will look like.
+Once the desired option in the Starter Geometry group has been clicked and the appropriate options selected for Location &amp; Weather and HVAC Methodology, the project can be created using the selected options by clicking the Create Project button – this will close the Start Page and any existing opened project (you will be prompted to save the existing project if necessary) and the project will be created.</p>
+<h3 id="create-from-bim">Create from BIM</h3>
+<p>The Create From BIM File sub-section can be used to create a new project that includes geometry and/or data from a Building Information Model (BIM) file in gbXML, IFC or veXML format.</p>
+<p>The BIM Options group allows the selection of a file to import, the type of import option to use, as well as options allowing for previewing of the BIM model using the VE Quarantine dialog prior to import and whether or not to display a log detailing any issues encountered when importing.
+By default, there is no BIM file selected – this is indicated by the group title displaying No BIM File Selected in red. It is not possible to create a project until a BIM file has been selected – clicking the Create Project button at the bottom of the sub-section will display a balloon tip to indicate this.</p>
+<p>To select a BIM file, click on the Browse for BIM File… button. Once a file has been selected, it will display under the Browse for BIM File… button:</p>
+<p>If the selected file is not a recognised format, a suitable message will be displayed in both the group and its title (again, it will not be possible to create a project until a different file is selected):</p>
+<p>Once a valid file is selected, the Import Options and Other Options items below will be enabled for selection. There are 6 possible import options – choose the one that best suits your needs for the BIM file in question:</p>
+<p>These options correspond to those available within the BIM Navigator and explanatory text is provided for each one – for further details, see the Choose Import Option [MM1] section of the BIM Navigator help.
+The Other Options section consists of two possible options – you can choose to use either, both or neither of these:</p>
+<p>If the Preview the BIM Model before importing checkbox is ticked, the Quarantine window will be displayed prior to importing:</p>
+<p>The Quarantine window will allow you to preview the geometry using ModelViewer, as well as perform checks and healing on the geometry prior to import. You can also choose to change the import option here if you need to. If the Preview the BIM Model before importing checkbox on the Start Page was unticked, the Quarantine window will not be displayed prior to importing, and geometry healing will be automatically applied.
+If the Display the Import Log after importing checkbox is ticked, the BIM import log will be automatically displayed when the importing of the BIM model is completed. The import log will highlight any issues with spaces and/or data in the model that you may need to review or be aware of before continuing with the project in the VE.</p>
+<p>The Shell Import Preferences… button at the bottom-right of the Other Options settings allows you to access the Shell Import Preferences window directly from the Start Page – see the Shell Import Preferences[MM2]  section for details on these settings.</p>
+<p>Once a BIM File and import option has been selected in the BIM Options group and the appropriate options selected for Location &amp; Weather and HVAC Methodology, the project can be created using the selected options by clicking the Create Project button – this will close the Start Page and any existing opened project (you will be prompted to save the existing project if necessary), the project will be created and the BIM model will be imported appropriately. Depending on the size of the BIM model and the option(s) selected, this may take some time to fully import.</p>
+<h3 id="drawing-in-the-ve">Drawing in the VE</h3>
+<p>Spaces are created using the facilities Draw extruded shape, Draw prism, Draw pyramid, Draw sphere, Draw hemisphere and Draw cylinder.
+These facilities share a Shape Settings dialog which allows you to specify various attributes of the space.</p>
+<h2 id="understand-the-building-characteristics-and-metrics">Understand the building characteristics and metrics</h2>
+<p>Could pop a section description in here.</p>
+<h3 id="set-building-type">Set building type</h3>
+<p>We need to set the &lsquo;Building Type&rsquo; in order to generate metrics.</p>
+<h3 id="create-building-metrics-report">Create building metrics report</h3>
+<p>This runs ApacheSim to perform an annual energy simulation on the building model.</p>
+
+
+
+<ul class="docs-children list-unstyled">
+
+	
+</ul>
+
+
+
+
+
+
+    
+
+
+                    
+                    <div class="row"><div class="position-relative mx-auto col-lg-9">
+                          <div class="bg-primary overflow-hidden p-3 mt-5 shadow">
+
+    <h4 class="text-white text-center">Read more</h4>
+
+    <div class="d-flex justify-content-center"><a class="p-1 mr-3 d-inline-block text-white" href="/" title="VE-Gaia"><i class="fas fa-chevron-left p-1"></i>VE-Gaia</a>
+        <a class="p-1 ml-3 d-inline-block text-white text-right" href="/climate/" title="2. Understand the Climate">2. Understand the Climate<i class="fas fa-chevron-right p-1"></i></a>
+    </div>
+</div>
+
+
+                        </div></div> 
+
+                </div>
+
+            </div> 
+
+        </div> 
+<script src="https://example.comlib/jquery.min.js"></script> 
+<script src="https://example.comlib/popper.min.js"></script> 
+
+<script src="https://example.comjs/bootstrap.min.js"></script> 
+
+
+<script type="text/javascript" src="/plugins/lunr.min.js"></script>
+<script type="text/javascript" src="/plugins/auto-complete.js"></script>
+<link href="/plugins/auto-complete.css" rel="stylesheet">
+<script type="text/javascript">
+  
+      var baseurl = "https:\/\/example.com";
+  
+</script>
+<script type="text/javascript" src="/plugins/search.js"></script>
+
+
+<script type="text/javascript" src="/plugins/clipboard.js"></script>
+<script>
+  new ClipboardJS('.btn');
+</script>
+</body>
+</html>
