@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>4. Reduce CO2 &amp;amp; Operational Energy on VE-Gaia</title>
-    <link>https://example.com/energy/</link>
-    <description>Recent content in 4. Reduce CO2 &amp;amp; Operational Energy on VE-Gaia</description>
+    <title>4. Reduce CO2 &amp;amp; Operational Energy on VE-Gaia: Tackling Climate Change</title>
+    <link>https://daveies.github.io/ve-gaia/energy/</link>
+    <description>Recent content in 4. Reduce CO2 &amp;amp; Operational Energy on VE-Gaia: Tackling Climate Change</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://example.com/energy/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://daveies.github.io/ve-gaia/energy/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
