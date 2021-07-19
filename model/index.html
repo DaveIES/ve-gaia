@@ -98,7 +98,7 @@
     <li data-nav-id="/ve-gaia/energy/" class="nav-item my-1
         ">
 
-        <a class="nav-link p-0" href="/ve-gaia/energy/"><h6>4. Reduce CO2 &amp;amp; Operational Energy</h6></a>
+        <a class="nav-link p-0" href="/ve-gaia/energy/"><h6>4. Reduce CO2 &amp; Operational Energy</h6></a>
     </li>
     <li data-nav-id="/ve-gaia/resources/" class="nav-item my-1
         ">
@@ -184,10 +184,7 @@
         <li><a href="#auto-generate-from-starter-geometry">Auto-generate from Starter Geometry</a></li>
         <li><a href="#create-from-bim">Create from BIM</a></li>
         <li><a href="#drawing-in-the-ve">Drawing in the VE</a></li>
-      </ul>
-    </li>
-    <li><a href="#understand-the-building-characteristics-and-metrics">Understand the building characteristics and metrics</a>
-      <ul>
+        <li><a href="#need-help">Need help?</a></li>
         <li><a href="#set-building-type">Set building type</a></li>
         <li><a href="#create-building-metrics-report">Create building metrics report</a></li>
       </ul>
@@ -202,7 +199,7 @@
 <h1>1. Create the model geometry</h1>
 
 <p class="lead">
-    Create and understand the building model&rsquo;s geometry.
+    Create and understand the building model&rsquo;s geometry.  By importing our existing BIM file, using the handy starter geometry or drawing the project in ModelIT we can define the
 </p>
 
 <h2 id="generateimportdraw-geometry">Generate/Import/Draw Geometry</h2>
@@ -212,44 +209,133 @@
 <li>Import from BIM</li>
 <li>Draw in ModelIT</li>
 </ul>
+<p><a href="https://help.iesve.com/ve2021/model_geometry.htm">&hellip;Learn more</a></p>
 <h3 id="auto-generate-from-starter-geometry">Auto-generate from Starter Geometry</h3>
 <p>The Create From Starter Geometry sub-section can be used to create a new project that is either blank (i.e. no geometry) or containing pre-defined default building geometry. This offers a fast and intuitive way of creating early-stage geometry for projects with minimal pre-required configuration.</p>
-<p>The Starter Geometry group consists of 17 thumbnails for the pre-defined geometry to create in the new project – only one of these thumbnails can be selected. The first option is None and is selected by default – this means no pre-defined geometry will be created in the new project. The other 16 thumbnails represent different building types (e.g. Small Office, Hospital, Restaurant), with the thumbnail image itself giving an indication of what the geometry will look like.
-Once the desired option in the Starter Geometry group has been clicked and the appropriate options selected for Location &amp; Weather and HVAC Methodology, the project can be created using the selected options by clicking the Create Project button – this will close the Start Page and any existing opened project (you will be prompted to save the existing project if necessary) and the project will be created.</p>
+<p><a href="https://youtu.be/0UAEWz_chj8">See it in action</a></p>
+<p><img src="/images/starter-geo.png" alt="Starter Geometry"></p>
 <h3 id="create-from-bim">Create from BIM</h3>
 <p>The Create From BIM File sub-section can be used to create a new project that includes geometry and/or data from a Building Information Model (BIM) file in gbXML, IFC or veXML format.</p>
-<p>The BIM Options group allows the selection of a file to import, the type of import option to use, as well as options allowing for previewing of the BIM model using the VE Quarantine dialog prior to import and whether or not to display a log detailing any issues encountered when importing.
-By default, there is no BIM file selected – this is indicated by the group title displaying No BIM File Selected in red. It is not possible to create a project until a BIM file has been selected – clicking the Create Project button at the bottom of the sub-section will display a balloon tip to indicate this.</p>
-<p>To select a BIM file, click on the Browse for BIM File… button. Once a file has been selected, it will display under the Browse for BIM File… button:</p>
-<p>If the selected file is not a recognised format, a suitable message will be displayed in both the group and its title (again, it will not be possible to create a project until a different file is selected):</p>
-<p>Once a valid file is selected, the Import Options and Other Options items below will be enabled for selection. There are 6 possible import options – choose the one that best suits your needs for the BIM file in question:</p>
-<p>These options correspond to those available within the BIM Navigator and explanatory text is provided for each one – for further details, see the Choose Import Option [MM1] section of the BIM Navigator help.
-The Other Options section consists of two possible options – you can choose to use either, both or neither of these:</p>
-<p>If the Preview the BIM Model before importing checkbox is ticked, the Quarantine window will be displayed prior to importing:</p>
-<p>The Quarantine window will allow you to preview the geometry using ModelViewer, as well as perform checks and healing on the geometry prior to import. You can also choose to change the import option here if you need to. If the Preview the BIM Model before importing checkbox on the Start Page was unticked, the Quarantine window will not be displayed prior to importing, and geometry healing will be automatically applied.
-If the Display the Import Log after importing checkbox is ticked, the BIM import log will be automatically displayed when the importing of the BIM model is completed. The import log will highlight any issues with spaces and/or data in the model that you may need to review or be aware of before continuing with the project in the VE.</p>
-<p>The Shell Import Preferences… button at the bottom-right of the Other Options settings allows you to access the Shell Import Preferences window directly from the Start Page – see the Shell Import Preferences[MM2]  section for details on these settings.</p>
-<p>Once a BIM File and import option has been selected in the BIM Options group and the appropriate options selected for Location &amp; Weather and HVAC Methodology, the project can be created using the selected options by clicking the Create Project button – this will close the Start Page and any existing opened project (you will be prompted to save the existing project if necessary), the project will be created and the BIM model will be imported appropriately. Depending on the size of the BIM model and the option(s) selected, this may take some time to fully import.</p>
+<p><img src="/images/bim.png" alt="BIM"></p>
+<p><img src="/images/youtube.png" alt="YouTube"></p>
+<ul>
+<li><a href="https://youtu.be/D5XOJlx5xHU">New IESVE Interoperability Navigator</a></li>
+<li><a href="https://youtu.be/5K0vxlpEClk">BIM Interoperability for Energy Modeling</a></li>
+<li><a href="https://youtu.be/h57nMxnozd4">Integration of IES with Revit</a></li>
+<li><a href="https://youtu.be/-wlMyXrumhA">3D Modelling &amp; BIM Interoperability</a></li>
+</ul>
 <h3 id="drawing-in-the-ve">Drawing in the VE</h3>
 <p>Spaces are created using the facilities Draw extruded shape, Draw prism, Draw pyramid, Draw sphere, Draw hemisphere and Draw cylinder.
 These facilities share a Shape Settings dialog which allows you to specify various attributes of the space.</p>
-<h2 id="understand-the-building-characteristics-and-metrics">Understand the building characteristics and metrics</h2>
-<p>Could pop a section description in here.</p>
+<h3 id="need-help">Need help?</h3>
+<p>Learn how to create and edit the building geometry using ModelIT with our <a href="https://www.iesve.com/training/online-training/modelit">online training course</a>.
+<br/></p>
+<hr/>
+## Understand the building characteristics and metrics
+Could pop a section description in here.
 <h3 id="set-building-type">Set building type</h3>
 <p>We need to set the &lsquo;Building Type&rsquo; in order to generate metrics.</p>
+<p>Available options:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Airport terminal</td>
+<td>Hospital</td>
+<td>Primary school</td>
+</tr>
+<tr>
+<td>Assembly</td>
+<td>Hotel</td>
+<td>Prison</td>
+</tr>
+<tr>
+<td>Automotive facility</td>
+<td>Industrial process building</td>
+<td>Restaurant or public house</td>
+</tr>
+<tr>
+<td>Bank or commercial</td>
+<td>Laboratory</td>
+<td>Retail</td>
+</tr>
+<tr>
+<td>Bus/train station or seaport terminal</td>
+<td>Launderette</td>
+<td>Retail warehouse</td>
+</tr>
+<tr>
+<td>Cinema</td>
+<td>Library</td>
+<td>Secondary school</td>
+</tr>
+<tr>
+<td>Convention centre</td>
+<td>Miscellaneous</td>
+<td>Single family dwelling</td>
+</tr>
+<tr>
+<td>Court</td>
+<td>Motel</td>
+<td>Social club</td>
+</tr>
+<tr>
+<td>Community/day centre</td>
+<td>Museum or gallery</td>
+<td>Sports/leisure centre</td>
+</tr>
+<tr>
+<td>Dining family</td>
+<td>Multi family dwelling</td>
+<td>Sports ground or arena</td>
+</tr>
+<tr>
+<td>Dormitory</td>
+<td>Nursing/residential home or hostel</td>
+<td>Telephone exchange</td>
+</tr>
+<tr>
+<td>Dwelling</td>
+<td>Office</td>
+<td>Transportation</td>
+</tr>
+<tr>
+<td>Dwelling &gt;= 450 sq.m</td>
+<td>Parking</td>
+<td>Theatre, music hall or auditorium</td>
+</tr>
+<tr>
+<td>Emergency services</td>
+<td>Place of worship</td>
+<td>Town hall</td>
+</tr>
+<tr>
+<td>Fire station</td>
+<td>Police station</td>
+<td>University or further education building</td>
+</tr>
+<tr>
+<td>Health or consultancy</td>
+<td>Post office</td>
+<td>Warehouse/storage</td>
+</tr>
+<tr>
+<td>Health or residential</td>
+<td>Primary health care building</td>
+<td>Workshop or maintenance depot</td>
+</tr>
+</tbody>
+</table>
 <h3 id="create-building-metrics-report">Create building metrics report</h3>
-<p>This runs ApacheSim to perform an annual energy simulation on the building model.</p>
-
-
-
-<ul class="docs-children list-unstyled">
-
-
-</ul>
-
-
-
-
+<p>This runs ApacheSim to perform an annual energy simulation on the building model and the <a href="/ve-gaia/reports/buildingmetrics">building metrics report</a> is generated from the results.</p>
+<p><img src="/images/building-report-snip.png" alt="building metrics report"></p>
+<p><em>Building Metrics Report</em></p>
 
 
 
